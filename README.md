@@ -1,9 +1,9 @@
 preparar o ambiente backend:
 
 cd task-manager
-npm init -y
-npm install express body-parser
-npm install typescript ts-node @types/node @types/express --save-dev
+npm init -y              
+npm install express body-parser                  
+npm install typescript ts-node @types/node @types/express --save-dev                    
 npx tsc --init
 
 iniciar aplicacao backend:
@@ -13,10 +13,10 @@ _____________________________________________________________________________
 
 preparar o ambiente frontend:
 
-npx create-react-app task-manager-frontend --template typescript
-cd task-manager-frontend
-npm install axios
-
+npx create-react-app task-manager-frontend --template typescript               
+cd task-manager-frontend            
+npm install axios              
+ 
 _____________________________________________________________________________
 
 executar a build:
