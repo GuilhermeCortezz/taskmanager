@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Especifica o alvo de compilação para ES6
+    "module": "commonjs", // Especifica o sistema de módulo
+    "rootDir": "./src", // Diretório raiz dos arquivos de entrada
+    "outDir": "./dist", // Diretório de saída para os arquivos compilados
+    "strict": true, // Ativa verificações de tipo estritas
+    "esModuleInterop": true, // Habilita interoperabilidade com módulos ES
+    "skipLibCheck": true, // Pula a verificação de tipos de arquivos de declaração
+    "forceConsistentCasingInFileNames": true // Força consistência de nomes de arquivos
+  }
+}
